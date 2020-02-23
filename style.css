@@ -1,0 +1,286 @@
+* {
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: url(images/hero.jpg);
+    height: 110vh;
+    background-size: cover;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover,
+ul li.active a {
+    background-color: #fc5c65;
+    color: black;
+}
+
+.logo {
+    float: left;
+    height: auto;
+
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #82ccdd;
+    color: black;
+}
+
+.services-section {
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    color: #82ccdd;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.border {
+    width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-box {
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+.service-icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid black;
+    color: #82ccdd;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+}
+
+.service-icon i {
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+}
+
+.service-box:hover .service-icon {
+    background: #82ccdd;
+    color: #ddd;
+}
+
+.service-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.service-desc {
+    font-size: 14px;
+}
+
+.image {
+    background: url(images/cod.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-position: center center;
+}
+
+.wrap {
+    max-width: 70vh;
+    border-radius: 20px;
+    padding: 10vh;
+    margin: auto;
+    color: #60adde;
+    font-weight: bold;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    outline: none;
+    border: none;
+    border-bottom: 5px dotted white;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: #60adde;
+    border-radius: 20px;
+    font-size: 20px;
+    color: wheat;
+}
+
+input[type=submit]:hover {
+    background: #003366;
+    opacity: 0.7;
+}
+
+footer{
+    background: grey;
+    padding: 90px 0;
+  }
+  
+  .footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .logo{
+    width: 180px;
+  }
+  
+  .social-media{
+    margin: 20px 0;
+  }
+  
+  .social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social-media a:hover{
+    color: #fc5c65;
+  }
+  
+  .right-col h1{
+    font-size: 26px;
+  }
+  
+  .border{
+    width: 100px;
+    height: 4px;
+    background: #fc5c65;
+  }
+  
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+  }
+  
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #fc5c65;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  
+  .btn:hover{
+    opacity: .7;
+  }
+  
+  .page-content{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
